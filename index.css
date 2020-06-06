@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    min-height: 700px;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    height: 100%;
+}
+
+.navbar {
+    color: #ffffff;
+    background-color: #343434;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-img {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-img img {
+    width: auto;
+    height: 40px;
+}
+
+.navbar-header {
+    height: 110px;
+    background-color: #4A4A4A;
+    font-size: 21px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.navbar-header-username {
+    flex: 1;
+    margin-left: 15px;
+}
+
+.navbar-create-button {
+    font-size: 36px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.navbar-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.navbar-content .navbar-img {
+    border: 1px solid #ffffff;
+}
+
+.navbar-chat-room-item {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.navbar-room-information {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.navbar-room-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.navbar-room-text {
+    font-size: 14px;
+}
+
+.navbar-unread-count {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    color: #4A4A4A;
+    background-color: #ffffff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-footer {
+    height: 60px;
+    background-color: #4A4A4A;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-footer img {
+    width: auto;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.navbar-footer-set-button {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.main {
+    background-color: #272727;
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header {
+    width: 840px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #979797;
+    padding-bottom: 20px;
+}
+
+.main-room-title {
+    display: flex;
+    align-items: center;
+}
+
+.main-room-name {
+    font-size: 21px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.main-option-button {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.main-content {
+    flex: 1;
+}
+
+.main-other-people-item {
+    width: 840px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.main-item-img {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.main-item-img img {
+    width: auto;
+    height: 28px;
+}
+
+.main-other-people-content {
+    margin-right: 10px;
+}
+
+.main-other-people-name {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.main-other-people-text {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 0px 12px 12px 12px;
+}
+
+.main-text-time {
+    color: #ffffff;
+    font-size: 12px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.main-self-item {
+    width: 840px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.main-self-text {
+    color: #ffffff;
+    background-color: #2A8CFF;
+    padding: 15px;
+    border-radius: 12px 0px 12px 12px;
+    margin-left: 10px;
+}
+
+.main-footer-option {
+    width: 840px;
+    height: 55px;
+    background-color: #666666;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-option-user-img {
+    padding-left: 20px;
+}
+
+.main-footer-option-user-img img {
+    height: 30px;
+    width: auto;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.main-footer-text-input {
+    width: 840px;
+    height: 72px;
+    background-color: #4A4A4A;
+    border-radius: 12px;
+    font-size: 21px;
+    color: #828282;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.main-footer-text-submit-button {
+    height: 35px;
+    width: auto;
+    cursor: pointer;
+}
